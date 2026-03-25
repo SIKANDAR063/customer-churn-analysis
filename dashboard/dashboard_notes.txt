@@ -1,0 +1,36 @@
+Customer Churn Analysis Dashboard Notes
+
+Overview:
+This dashboard provides a visual analysis of customer churn patterns using data from PostgreSQL and MongoDB. It highlights key factors influencing churn and helps identify high-risk customer segments.
+
+Charts Explanation:
+
+1. Churn Distribution
+This chart shows the overall distribution of Active vs Churned customers.
+- Total churn rate is approximately 22%.
+- Indicates a significant portion of customers are leaving.
+
+2. Churn by Company Size
+This chart compares churn across different company sizes.
+- Small and Large companies show higher churn (~23–24%).
+- Enterprise customers have lower churn (~19%), indicating better retention.
+
+3. Churn by Signup Source
+This chart analyzes churn based on acquisition channels.
+- Event-based customers have the highest churn (~26%).
+- Partner-based customers have the lowest churn (~15%), indicating higher quality acquisition.
+
+4. NPS vs Churn
+This chart compares customer satisfaction (NPS) with churn.
+- Even customers with high NPS are churning.
+- NPS alone is not a reliable predictor of retention.
+
+Key Insights:
+- Overall churn rate is high (22%).
+- Acquisition channel significantly impacts churn.
+- Company size influences retention.
+- Low engagement users (from MongoDB analysis) are more likely to churn.
+- Behavioral data is more reliable than survey data.
+
+Conclusion:
+Combining structured data (SQL) with behavioral data (MongoDB) provides a deeper understanding of churn patterns. Improving user engagement and focusing on high-quality acquisition channels can significantly reduce churn.

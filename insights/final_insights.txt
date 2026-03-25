@@ -1,0 +1,17 @@
+1. The overall churn rate is 22%, indicating a significant level of customer attrition.
+
+2. Small and large companies exhibit the highest churn rates (~23–24%), whereas enterprise customers are more stable (~19%), likely due to long-term commitments.
+
+3. Customers acquired through events have the highest churn (~26%), suggesting low-intent or low-quality acquisition channels.
+
+4. Partner-based acquisition shows the lowest churn (~15%), indicating higher customer trust and reliability.
+
+5. NPS alone is not a strong predictor of churn, as even high NPS customers are observed to churn.
+
+6. This highlights the need to combine satisfaction metrics with behavioral data for accurate churn prediction.
+
+7. Customers with low activity levels (fewer interactions in MongoDB logs) demonstrate a higher probability of churn.
+
+8. Engagement (user activity) is a stronger and more reliable predictor of retention compared to NPS alone.
+
+9. Combining structured data (SQL) with behavioral data (MongoDB) provides a more comprehensive and accurate understanding of churn patterns.
